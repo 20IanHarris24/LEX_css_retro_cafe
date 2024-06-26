@@ -1,0 +1,71 @@
+/* font-family: "Poiret One", sans-serif;
+font-family: "Spirax", sans-serif; */
+.body{
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.sectionhot{
+    /* display: flex; */
+    background-image: url(hot.jpg);
+    background-image: center;
+    background-attachment:scroll;
+    background-size: cover;
+    height: 1312px;
+    /* margin-top: 0px; */
+
+
+}
+
+.topmenu{
+    display: flex;
+    background-color: yellowgreen;
+    font-family: "Spirax", sans-serif;
+    font-size: 2rem;
+    justify-content: center;
+    
+ }
+
+ 
+
+.topmenu .navbar{
+    display: flex;
+    gap: 4rem;
+    
+}
+
+.topmenu .navbar .linkhot{
+    display: flex;
+    padding: 1rem;
+    text-decoration-line: none;
+}
+
+.topmenu .navbar .linkjuicy{
+    display: flex;
+    /* justify-content: center; */
+    padding: 1rem;
+    text-decoration-line: none;
+    
+}
+
+.topmenu .navbar .linkcosy{
+    display: flex;
+    padding: 1rem;
+    text-decoration-line: none;
+    
+}
+
+
+
+/* .hot .hotpicture .pic1{
+    display: flex;
+    align-item: ;
+    background-image: url("hot.jpg") ;
+    /* display: flex; */
+    /* justify-self: start; */
+    /* width: max-content;
+    height: max-content; */
+
+ 
+
