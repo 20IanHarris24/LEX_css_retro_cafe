@@ -6,6 +6,11 @@ font-family: "Spirax", sans-serif; */
     padding: 0px;
 }
 
+.tab{
+    display: inline-block;
+    margin-left: 530px;
+}
+
 
 /* .body{
   display: flex;
@@ -80,6 +85,7 @@ font-family: "Spirax", sans-serif; */
     background-repeat: no-repeat;
     background-size:cover;
     display: flex;
+    flex-direction: row;
     height: 100vh;
     left: 0px;
     right: 0px;
@@ -113,12 +119,13 @@ font-family: "Spirax", sans-serif; */
 
 
 .sectionH .Htextbox{
+    align-content: center;
     Background-color: darkred;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 80px;
-    left: 280px;
+    height: 100px;
+    left: 220px;
     padding: 2px;
     opacity: 0.7;
     position:relative;
@@ -138,13 +145,14 @@ font-family: "Spirax", sans-serif; */
 }
 
 .sectionH .Htextbox2{
+    align-content: center;
     Background-color: darkred;
     bottom: -720px;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     height: 100px;
-    right: 350px;
+    right: 510px;
     opacity: 0.7;
     padding: 2px;
     position:relative;
@@ -161,6 +169,42 @@ font-family: "Spirax", sans-serif; */
     padding: 2px;
     justify-content: center;
 }
+
+
+
+.sectionH .Htextpricecard{
+    align-content: center;
+    Background-color: black;
+    top: 855px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 200px;
+    left: 610px;
+    opacity: 0.8;
+    padding: 2px;
+    position:absolute;
+    justify-content: center;
+    width: 1000px;
+}
+
+.sectionH .Htextpricecard .Htext3{
+    align-content: center;
+    color: #F5F5F5;
+    flex-direction: row;
+    font-family: "Poiret One", sans-serif;
+    font-size: 2rem;
+    height: 180px;
+    list-style-type: none;
+    padding: 2px;
+    /* tab-size: 10; */
+    justify-content: center;
+    text-align:justify;
+    width: 870px;
+    
+}
+
+
 
 
 
