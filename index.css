@@ -1,60 +1,219 @@
 /* font-family: "Poiret One", sans-serif;
 font-family: "Spirax", sans-serif; */
-.body{
-  display: flex;
-  flex-direction: column;
-  margin: 0px;
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
-.sectionhot{
-    /* display: flex; */
-    background-image: url(hot.jpg);
-    background-image: center;
-    background-attachment:scroll;
-    background-size: cover;
-    height: 1312px;
-    /* margin-top: 0px; */
 
+/* .body{
+  display: flex;
+  flex-direction: column;
+ } */
 
+ .header{
+    /* background-color:darkseagreen; */
+    display: flex;
+    position: fixed;
+    width: 100%;
 }
 
 .topmenu{
+
     display: flex;
-    background-color: yellowgreen;
     font-family: "Spirax", sans-serif;
-    font-size: 2rem;
-    justify-content: center;
+    font-size: 4rem;
+    left: 0px;
+    opacity: 0.6; 
+    right: 0px;
+    width: 100%;
+}
     
- }
-
- 
-
 .topmenu .navbar{
-    display: flex;
-    gap: 4rem;
-    
-}
 
+    background-color: #410000;
+    display: flex;
+    font-family: "Spirax", sans-serif;
+    font-size: 4rem;
+    gap: 8rem;
+    position:fixed;
+    justify-content: center;
+    opacity: 0.5;
+    width: 100%;
+}
+    
 .topmenu .navbar .linkhot{
+
+    color: #FFFFFF;
     display: flex;
+    font-weight: bold;
+    opacity: 1;
     padding: 1rem;
     text-decoration-line: none;
 }
-
+    
 .topmenu .navbar .linkjuicy{
+
     display: flex;
-    /* justify-content: center; */
+    color: #FFFFFF;
+    font-weight: bold;
+    opacity: 1;
     padding: 1rem;
     text-decoration-line: none;
+}
     
+.topmenu .navbar .linkcosy{
+
+    color: #FFFFFF;
+    display: flex;
+    font-weight: bold;
+    opacity: 1;
+    padding: 1rem;
+    text-decoration-line: none;
 }
 
-.topmenu .navbar .linkcosy{
+.sectionH{
+
+    background-attachment:scroll;
+    background-image: url(hot.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
     display: flex;
-    padding: 1rem;
-    text-decoration-line: none;
-    
+    height: 100vh;
+    left: 0px;
+    right: 0px;
 }
+
+.sectionH .Htitlecontainer{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 170px;
+    left: 963px;
+    padding: 2px;
+    position:relative;
+    top: 360px;
+    width: 220px;
+}
+
+
+.sectionH .Htitlecontainer .Htitletext{
+    align-content: center;
+    color: darkred;
+    display:flex;
+    font-family: "Spirax", sans-serif;
+    font-size: 8rem;
+    font-weight: bold;
+    height: 160px;
+    justify-content: space-around;
+    width: 220px;
+}
+
+
+.sectionH .Htextbox{
+    Background-color: darkred;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 80px;
+    left: 280px;
+    padding: 2px;
+    opacity: 0.7;
+    position:relative;
+    justify-content: center;
+    top: 580px;
+    width: 1950px;
+}
+
+.sectionH .Htextbox .Htext1{
+    align-content: center;
+    color: #F5F5F5;
+    flex-direction: row;
+    font-family: "Poiret One", sans-serif;
+    font-size: 2rem;
+    padding: 2px;
+    justify-content: center;
+}
+
+.sectionH .Htextbox2{
+    Background-color: darkred;
+    bottom: -720px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100px;
+    right: 350px;
+    opacity: 0.7;
+    padding: 2px;
+    position:relative;
+    justify-content: center;
+    width: 1700px;
+}
+
+.sectionH .Htextbox2 .Htext2{
+    align-content: center;
+    color: #F5F5F5;
+    flex-direction: row;
+    font-family: "Poiret One", sans-serif;
+    font-size: 2rem;
+    padding: 2px;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+.sectionjuice{
+    background-attachment:scroll;
+    background-image: url(juicy.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    height: 100vh;
+    left: 0px;
+    right: 0px;  
+}
+
+
+/* .sectionjuiceheader{
+    background-color:darkred;
+    display: flex;
+    background-size: contain;
+    flex-direction: row-reverse;
+    position:relative;
+    width: 100%
+    
+} */
+
+
+
+.sectioncosy{
+    background-attachment:scroll;
+    background-image: url(cosy.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    height: 100vh;
+    left: 0px;
+    right: 0px;  
+}
+
+/* .sectionhot .hotpicture{
+    background-size: auto;
+    flex-direction: column;
+    
+} */
+
+
+
+
+
 
 
 
