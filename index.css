@@ -1,475 +1,285 @@
-/* font-family: "Poiret One", sans-serif;
-font-family: "Spirax", sans-serif; */
+/* font-family: "Spirax", sans-serif; */
 *{
     border: 0px;
+    font-family: "Poiret One", sans-serif;
     margin: 0px;
     padding: 0px;
+    
 }
 
-.tab{
+/* stops the page selection jumping about */
+html{ 
+    scroll-behavior: smooth;
+    
+    /* z-index:1; */
+}
+
+/* .tab{
     display: inline-block;
     margin-left: 530px;
-}
+} */
 
-.tabJ{
+/* .tabJ{
     display: inline-block;
     margin-left: 400px;
-}
+} */
 
-.tabC{
+/* .tabC{
     display: inline-block;
     margin-left: 350px;
-}
+} */
 
-/* .body{
-  display: flex;
-  flex-direction: column;
- } */
-
- .header{
-    /* background-color:darkseagreen; */
-    display: flex;
-    position: fixed;
-    width: 100%;
-}
-
-.topmenu{
-
-    display: flex;
-    font-family: "Spirax", sans-serif;
-    font-size: 4rem;
-    left: 0px;
-    opacity: 0.6; 
-    right: 0px;
-    width: 100%;
-}
     
-.topmenu .navbar{
+.navbar{
 
-    background-color: #410000;
     display: flex;
-    font-family: "Spirax", sans-serif;
-    font-size: 4rem;
     gap: 8rem;
-    position:fixed;
     justify-content: center;
-    opacity: 0.5;
+    position:fixed;
+
+    background-color: #0a0000;
+    font-size: 4rem;
+    opacity: 0.6;
     width: 100%;
-}
+    z-index: 1;
     
-.topmenu .navbar .linkhot{
+}
 
+.navbar .link{
+    
     color: #FFFFFF;
-    display: flex;
-    font-weight: bold;
-    opacity: 1;
+    font-family: "Spirax", sans-serif;
     padding: 1rem;
     text-decoration-line: none;
 }
     
-.topmenu .navbar .linkjuicy{
 
-    display: flex;
-    color: #FFFFFF;
-    font-weight: bold;
-    opacity: 1;
-    padding: 1rem;
-    text-decoration-line: none;
-}
-    
-.topmenu .navbar .linkcosy{
-
-    color: #FFFFFF;
-    display: flex;
-    font-weight: bold;
-    opacity: 1;
-    padding: 1rem;
-    text-decoration-line: none;
-}
 
 .sectionH{
 
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    justify-content:center;
+    
     background-attachment:scroll;
-    background-image: url(hot.jpg);
+    background-image: url(Assets/hot.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    display: flex;
-    flex-direction: row;
+    border-bottom: 1rem solid darkred;
     height: 100vh;
     left: 0px;
     right: 0px;
+   
 }
 
-.sectionH .Htitlecontainer{
+.sectionH .titletext{
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 170px;
-    left: 963px;
-    padding: 2px;
-    position:relative;
-    top: 360px;
-    width: 220px;
-}
-
-
-.sectionH .Htitlecontainer .Htitletext{
-    align-content: center;
     color: darkred;
-    display:flex;
     font-family: "Spirax", sans-serif;
     font-size: 8rem;
-    font-weight: bold;
-    height: 160px;
-    justify-content: space-around;
-    width: 220px;
 }
 
+.sectionH .box{
 
-.sectionH .Htextbox{
-    align-content: center;
-    Background-color: darkred;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 100px;
-    left: 220px;
-    padding: 2px;
-    opacity: 0.7;
-    position:relative;
-    justify-content: center;
-    top: 580px;
-    width: 1950px;
-}
-
-.sectionH .Htextbox .Htext1{
-    align-content: center;
-    color: #F5F5F5;
-    flex-direction: row;
-    font-family: "Poiret One", sans-serif;
+    color: whitesmoke;
     font-size: 2rem;
-    padding: 2px;
-    justify-content: center;
-}
-
-.sectionH .Htextbox2{
-    align-content: center;
-    Background-color: darkred;
-    bottom: -720px;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 100px;
-    right: 510px;
-    opacity: 0.7;
-    padding: 2px;
-    position:relative;
-    justify-content: center;
-    width: 1700px;
-}
-
-.sectionH .Htextbox2 .Htext2{
-    align-content: center;
-    color: #F5F5F5;
-    flex-direction: row;
-    font-family: "Poiret One", sans-serif;
-    font-size: 2rem;
-    padding: 2px;
-    justify-content: center;
-}
-
-
-
-.sectionH .Htextpricecard{
-    align-content: center;
-    Background-color: black;
-    top: 855px;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 200px;
-    left: 610px;
-    opacity: 0.8;
-    padding: 2px;
-    position:absolute;
-    justify-content: center;
-    width: 1500px;
-}
-
-.sectionH .Htextpricecard .Htext3{
-    align-content: center;
-    color: #F5F5F5;
-    flex-direction: row;
-    font-family: "Poiret One", sans-serif;
-    font-size: 2rem;
-    height: 180px;
-    list-style-type: none;
-    padding: 2px;
-    /* tab-size: 10; */
-    justify-content: center;
-    text-align:justify;
-    width: 870px;
+    padding: 1rem 2rem;
+    width: 800px;
+    
     
 }
+
+.sectionH .colour{
+    
+    background-color: darkred;
+    opacity: 0.7;
+    position:relative;
+    text-align: center;
+   
+}
+
+
+.sectionH .box.text1 {
+
+    right: 7rem;
+}
+
+.sectionH .box.text2 {
+
+    left: 7rem;
+}
+
+
+.sectionH .Binfocard{
+    
+    Background-color: black;
+    opacity: 0.7;
+    padding: 1rem 2rem;
+    width: 800px;
+}
+
+.sectionH .Binfocard .Hrow{
+    
+    color: #F5F5F5;
+    display:flex;
+    font-size: 2rem;
+    justify-content: space-between;
+}
+
+
 
 
 
 /* Page 2 */
 
 
-
 .sectionJ{
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    justify-content:center;
+    
     background-attachment:scroll;
-    background-image: url(juicy.jpg);
+    background-image: url(Assets/juicy.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    display: flex;
+    border-bottom: 1rem solid darkred;
     height: 100vh;
     left: 0px;
-    right: 0px;  
+    right: 0px;
 }
 
+.sectionJ .titletext{
 
-.sectionJ .Jtitlecontainer{
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 170px;
-    left: 760px;
-    padding: 2px;
-    position:relative;
-    top: 440px;
-    width:auto;
-    /* width: 400px; */
-}
-
-.sectionJ .Jtitlecontainer .Jtitletext{
-    align-content: center;
     color: darkred;
-    display:flex;
     font-family: "Spirax", sans-serif;
     font-size: 8rem;
-    font-weight: bold;
-    height: 160px;
-    justify-content: center;
-    padding: 2px;
-    width: auto;
 }
 
-.sectionJ .Jtextbox{
-    align-content: center;
-    Background-color: darkred;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 100px;
-    left: 425px;
-    padding: 2px;
-    opacity: 0.7;
-    position: relative;
-    justify-content: center;
-    top: 680px;
-    width: auto;
-}
 
-.sectionJ .Jtextbox .Jtext1{
-    align-content: center;
-    color: #F5F5F5;
-    flex-direction: row;
-    font-family: "Poiret One", sans-serif;
+.sectionJ .box{
+
+    color: whitesmoke;
     font-size: 2rem;
-    padding: 2px;
-    justify-content: center;
+    padding: 1rem 2rem;
+    width: 800px;
 }
 
-.sectionJ .Jtextbox2{
-    align-content: center;
-    Background-color: darkred;
-    bottom: -820px;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 100px;
-    right: 100px;
+.sectionJ .colour{
+    
+    background-color: darkred;
     opacity: 0.7;
-    padding: 2px;
     position:relative;
-    justify-content: center;
-    width: 1700px;
-}
-
-.sectionJ .Jtextbox2 .Jtext2{
-    align-content: center;
-    color: #F5F5F5;
-    flex-direction: row;
-    font-family: "Poiret One", sans-serif;
-    font-size: 2rem;
-    padding: 2px;
-    justify-content: center;
+    text-align: center;
 }
 
 
-.sectionJ .Jtextpricecard{
-    align-content: center;
+.sectionJ .box.text1 {
+
+    right: 7rem;
+}
+
+.sectionJ .box.text2 {
+
+    left: 7rem;
+}
+
+
+.sectionJ .Jinfocard{
+    
     Background-color: black;
-    top: 855px;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 200px;
-    left: -300px;
-    opacity: 0.8;
-    padding: 2px;
-    position:relative;
-    justify-content: center;
-    width: 1000px;
+    opacity: 0.7;
+    padding: 1rem 2rem;
+    width: 800px;
 }
 
-.sectionJ .Jtextpricecard .Jtext3{
-    align-content: center;
+.sectionJ .Jinfocard .Jrow{
+    
     color: #F5F5F5;
-    flex-direction: row;
-    font-family: "Poiret One", sans-serif;
+    display:flex;
     font-size: 2rem;
-    height: 180px;
-    list-style-type: none;
-    padding: 2px;
-    /* tab-size: 10; */
-    justify-content: center;
-    text-align:justify;
-    width: 870px;
-    
+    justify-content: space-between;
 }
-
-    
-
 
 
 /* Page 3 */
 
 
 .sectionC{
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    justify-content:center;
+    
     background-attachment:scroll;
-    background-image: url(cosy.jpg);
+    background-image: url(Assets/cosy.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    display: flex;
+    border-bottom: 1rem solid darkred;
     height: 100vh;
     left: 0px;
-    right: 0px;  
+    right: 0px;
 }
 
+.sectionC .titletext{
 
-.sectionC .Ctitlecontainer{
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 170px;
-    left: 900px;
-    padding: 2px;
-    position:relative;
-    top: 460px;
-    width: 220px;
-}
-
-.sectionC .Ctitlecontainer .Ctitletext{
-    align-content: center;
     color: darkred;
-    display:flex;
     font-family: "Spirax", sans-serif;
     font-size: 8rem;
-    font-weight: bold;
-    height: 160px;
-    justify-content: space-around;
-    width: 220px;
 }
 
-.sectionC .Ctextbox{
-    align-content: center;
-    Background-color: darkred;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 100px;
-    left: 425px;
-    padding: 2px;
-    opacity: 0.7;
-    position: relative;
-    justify-content: center;
-    top: 680px;
-    width: 2050px;
-}
 
-.sectionC .Ctextbox .Ctext1{
-    align-content: center;
-    color: #F5F5F5;
-    flex-direction: row;
-    font-family: "Poiret One", sans-serif;
+.sectionC .box{
+
+    color: whitesmoke;
     font-size: 2rem;
-    padding: 2px;
-    justify-content: center;
+    padding: 1rem 2rem;
+    width: 800px;
 }
 
-.sectionC .Ctextbox2{
-    align-content: center;
-    Background-color: darkred;
-    bottom: -820px;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 100px;
-    right: 100px;
-    opacity: 0.7;
-    padding: 2px;
-    position:relative;
-    justify-content: center;
-    width: 1700px;
-}
-
-.sectionC .Ctextbox2 .Ctext2{
-    align-content: center;
-    color: #F5F5F5;
-    flex-direction: row;
-    font-family: "Poiret One", sans-serif;
-    font-size: 2rem;
-    padding: 2px;
-    justify-content: center;
-}
-
-
-.sectionC .Ctextpricecard{
-    align-content: center;
-    Background-color: black;
-    top: 855px;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 200px;
-    left: 50px;
-    opacity: 0.8;
-    padding: 2px;
-    position:relative;
-    justify-content: center;
-    width: 1000px;
-}
-
-.sectionC .Ctextpricecard .Ctext3{
-    align-content: center;
-    color: #F5F5F5;
-    flex-direction: row;
-    font-family: "Poiret One", sans-serif;
-    font-size: 2rem;
-    height: 150px;
-    list-style-type: none;
-    padding: 2px;
-    /* tab-size: 10; */
-    justify-content: center;
-    text-align:justify;
-    width: 870px;
+.sectionC .colour{
     
+    background-color: darkred;
+    opacity: 0.7;
+    position:relative;
+    text-align: center;
+}
+
+
+.sectionC .box.text1 {
+
+    right: 7rem;
+}
+
+.sectionC .box.text2 {
+
+    left: 7rem;
+}
+
+
+.sectionC .Cinfocard{
+    
+    Background-color: black;
+    opacity: 0.7;
+    padding: 1rem 2rem;
+    width: 800px;
+}
+
+.sectionC .Cinfocard .Crow{
+    
+    color: #F5F5F5;
+    display:flex;
+    font-size: 2rem;
+    justify-content: space-between;
 }
  
 

@@ -3,87 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Spirax&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="index.css" />
     <title>Cafe Retro</title>
 </head>
-<body class="body">
-    <header class="header">
-    <h1></h1>
-        <div class="topmenu">
+
+<body>
+
+    <!-- Navigation bar -->
+       
             <nav class="navbar">
-                <a href="#" class="linkhot">Hot</a>
-                <a href="#" class="linkjuicy">Juicy</a>
-                <a href="#" class="linkcosy">Cosy</a>
+                <a class="link"   href="#hot">  Hot</a>
+                <a class="link"   href="#juicy">Juicy</a>
+                <a class="link"   href="#cosy"> Cosy</a>
             </nav>
-        </div>
-    </header>   
+        
+     
     
     <!-- Page 1 -->
-    <!-- <section class="sectionH">
-        <article class="Htitlecontainer">
-            <p class="Htitletext">Hot</p>
-        </article>
-
-        <article class="Htextbox">
-            <p class="Htext1">Hot freshly ground black coffee or a cup of exquisite tea?</p>
-        </article>
-
-        <article class="Htextbox2">
-            <p class="Htext2">We give you that perfect cup every time.</p>
-        </article>
-
-        <article class="Htextpricecard">
-            <p class="Htext3">Mocha Latte<span class="tab">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€ 7.50</span><br>Caffe Formaggio<span class="tab">€ 5.00</span><br>Espresso<span class="tab">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€ 3.50</span><br>Chai Verde Latte<span class="tab">€ 5.50</span> </p>
-        </article>
-    </section> -->
+    <section class="sectionH" id="hot">
+        <h1 class="titletext">Hot</h1>
+            <p class="box colour text1">Hot freshly ground black coffee or a cup of exquisite tea?</p>
+            <p class="box colour text2">We give you that perfect cup every time.</p>
+            <div class="Binfocard">
+                <p class="Hrow"><span>Mocha Latte</span><span>€ 7.50</span></p>
+                <p class="Hrow"><span>Caffe Formaggio</span>€ 5.00</span></p>
+                <p class="Hrow"><span>Espresso</span><span>€ 3.50</span></p>
+                <p class="Hrow"><span>Chai Verde Latte</span><span>€ 5.50</span></p>
+            </div>
+    </section>
     
     
     
     <!-- Page 2      -->
-    <section class="sectionJ">
-        <article class="Jtitlecontainer">
-            <p class="Jtitletext">Juicy</p>
-        </article>
-
-        <article class="Jtextbox">
-            <p class="Jtext1">Ripe fruit - freshly squeezed.</p>
-        </article>
-
-        <article class="Jtextbox2">
-            <p class="Jtext2">It's as simple as that. Chunky or smooth - it's your choice.</p>
-        </article>
-
-        <article class="Jtextpricecard">
-            <p class="Jtext3">Branched Apricots<span class="tabJ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€ 4.20</span><br>Deep Rasberries<span class="tabJ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€ 3.50</span><br>Smooth Oranges<span class="tabJ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€ 6.50</span><br></p>
-        </article>
+    <section class="sectionJ" id="juicy">
+        <h1 class="titletext">Juice</h1>
+            <p class="box colour text1">Ripe fruit - freshly squeezed.</p>
+            <p class="box colour text2">It's as simple as that. Chunky or smooth - it's your choice.</p>
+              <div class="Jinfocard">
+                <p class="Jrow"><span>Branched Apricots</span><span>€ 4.20</span></p>
+                <p class="Jrow"><span>Deep Rasberries</span>€ 3.50</span></p>
+                <p class="Jrow"><span>Smooth Oranges</span><span>€ 6.50</span></p>
+                <p class="Jrow"><span>Chai Verde Latte</span><span>€ 5.50</span></p>
+              </div>
     </section>
-   
-    
-    
+  
     
     <!-- Page 3 -->
-    <section class="sectionC">
-        <article class="Ctitlecontainer">
-            <p class="Ctitletext">Cosy</p>
-        </article>
-
-        <article class="Ctextbox">
-            <p class="Ctext1">Hang around. Enjoy the settings.</p>
-        </article>
-
-        <article class="Ctextbox2">
-            <p class="Ctext2">Use our fast WiFi. Borrow a newspaper or a novel.</p>
-        </article>
-
-        <article class="Ctextpricecard">
-            <p class="Ctext3">Mon-Sun<span class="tabC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8am – 11pm</span><br>Caffe Retro<span class="tabC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Canto VI</span><br>0123-45 67 89<span class="tabC">&nbsp;&nbsp;caffe@lorem.pge</span><br></p>
-        </article>
-
-           
+     <section class="sectionC" id="cosy">
+        <h1 class="titletext">Cosy</h1>
+            <p class="box colour text1">Hang around. Enjoy the settings.</p>
+            <p class="box colour text2">Use our fast WiFi. Borrow a newspaper or a novel.</p>
+              <div class="Cinfocard">
+                <p class="Crow"><span>Mon-Sun</span><span>8am – 11pm</span></p>
+                <p class="Crow"><span>Caffe Retro</span>Canto VI</span></p>
+                <p class="Crow"><span>0123-45 67 89</span><span>caffe@lorem.pge</span></p>
+                <p class="Crow"><span>Chai Verde Latte</span><span>€ 5.50</span></p>
+              </div>
     </section>
+    
     
     
     
